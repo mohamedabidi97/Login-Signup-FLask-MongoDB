@@ -1,0 +1,18 @@
+
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="alert alert-success" style="margin-bottom :50x;">
+        <div class="container">
+          <div class="alert-icon">
+            <i class="material-icons">check</i>
+          </div>
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true"><i class="material-icons">clear</i></span>
+          </button>
+          <b>Welcome:</b> Yuhuuu! You have Logged in as {{ email }}
+        </div>
+      </div>
+
+{% endblock %}
